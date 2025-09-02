@@ -22,6 +22,6 @@ func cloneBytes(b []byte) []byte {
 }
 
 func (bv ByteView) String() string {
-	return string(v.b)
+	return string(bv.b)
 }
 

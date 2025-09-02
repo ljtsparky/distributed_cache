@@ -1,9 +1,0 @@
-package geecache
-
-import (
-	"testing"
-)
-
-func TestGetter(t *testing T) {
-	var f Getter = GetterFunc(func(key string) ([]byte, error))
-}
